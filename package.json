@@ -1,0 +1,44 @@
+{
+  "name": "ratchet-reddit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=development parcel src/index.html --open",
+    "build": "NODE_ENV=production parcel build dist/index.html --public-url ./",
+    "dev": "parcel src/client/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magic8baller/ratchet-reddit.git"
+  },
+  "keywords": [],
+  "author": "Leslie T",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/magic8baller/ratchet-reddit/issues"
+  },
+  "homepage": "https://github.com/magic8baller/ratchet-reddit#readme",
+  "dependencies": {
+    "@babel/polyfill": "^7.6.0",
+    "@reach/router": "^1.2.1",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1",
+    "express-session": "^1.16.2",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "styled-components": "^4.4.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.2",
+    "@babel/core": "^7.6.2",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "@babel/preset-react": "^7.0.0",
+    "eslint": "^6.5.1",
+    "parcel-bundler": "^1.12.4"
+  }
+}
